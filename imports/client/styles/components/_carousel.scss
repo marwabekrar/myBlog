@@ -1,0 +1,59 @@
+.carousel {
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("headerImg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.hero-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 155%;
+    color: azure;
+    border: 1px solid $brand-primary;
+    padding: 10px 20px;
+    border-radius: 200px;
+}
+
+.btn-full:link,
+.btn-full:visited{
+    background-color: $brand-primary;
+    margin-right: 20px;
+}
+
+.btn-full:active,
+.btn-full:hover{
+    background-color: #b2425e;
+    border: 1px solid #9a3951; 
+}
+
+.btn-ghost:link,
+.btn-ghost:visited{
+    color: $brand-primary;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active{
+    background-color: #b2425e;
+    color:azure;
+    border: 1px solid #9a3951; 
+}
+
+.title {
+    margin-top: 0; 
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 300%;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
